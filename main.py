@@ -49,39 +49,48 @@ y = le.transform(df["Disease"].apply(lambda d: d.strip().title() if not d.isuppe
 model = MultinomialNB()
 model.fit(multiHot, y)
 
-print("--- Symptoms List ---")
-cols = 4
-for i in range(0, len(symptomsUser), cols):
-    row = symptomsUser[i:i + cols]
-    print("".join(f"{f'{i+j+1}. {s}':40}" for j, s in enumerate(row)))
+# build dictionary mapping: disease → symptoms
+diseaseSymptomDict = {}
+for i, row in df.iterrows():
+    diseaseName = row["Disease"].strip().title() if not row["Disease"].isupper() else row["Disease"].strip()
+    syms = []
+    for s in symptomCols:
+        val = row[s].strip().lower().replace(" ", "_")
+        if val != 'none':
+            syms.append(symptomsDict.get(val, val))
+    diseaseSymptomDict.setdefault(diseaseName, set()).update(syms)
 
 while True:
+    print("--- Symptoms List ---")
+    cols = 4
+    for i in range(0, len(symptomsUser), cols):
+        row = symptomsUser[i:i + cols]
+        print("".join(f"{f'{i+j+1}. {s}':40}" for j, s in enumerate(row)))
+
     # take symptoms input
     print("Enter at least 5 symptoms (comma-separated):")
-    user_input = input("→ ").split(",")
-    
+    userInput = input("→ ").split(",")
+
     # clean user input
-    user_symptoms = [s.strip().lower().replace(" ", "_") for s in user_input if s.strip() != ""]
-    
+    userSymptoms = [s.strip().lower().replace(" ", "_") for s in userInput if s.strip() != ""]
+
     # create user data row (multi-hot vector)
     userData = pd.DataFrame(0, index=[0], columns=symptoms)
-    for s in user_symptoms:
+    for s in userSymptoms:
         if s in userData.columns:
             userData.loc[0, s] = 1
-    
+
     # make probability predictions for all diseases
     probs = model.predict_proba(userData)[0]
-    
+
     # sort probabilities in descending order
-    sorted_indices = probs.argsort()[::-1]
-    
-    # get top 3 predictions
-    top3 = [(le.inverse_transform([i])[0], probs[i] * 100) for i in sorted_indices[:3]]
-    
+    sortedIndices = probs.argsort()[::-1]
+
+    # get top 5 predictions
+    top5 = [(le.inverse_transform([i])[0], probs[i] * 100) for i in sortedIndices[:5]]
+
     print("Top 3 Possible Diseases:")
-    for disease, confidence in top3:
+    for disease, confidence in top5:
+        syms = ", ".join(sorted(list(diseaseSymptomDict.get(disease, []))))
         print(f"{disease:30s} — {confidence:.2f}% confidence")
-    
-    # highlight top prediction
-    top_disease, top_conf = top3[0]
-    print(f"Most likely disease: {top_disease} ({top_conf:.2f}% confidence)")
+        print(f"Other Symptoms: {syms}")
