@@ -4,7 +4,7 @@ from sklearn.naive_bayes import MultinomialNB
 import joblib
 import os
 
-# ---------- Load and preprocess dataset ----------
+# Load and preprocess dataset
 df = pd.read_csv("dataset.csv")
 df = df.fillna("none")
 
@@ -32,7 +32,7 @@ diseases = sorted(
     ])
 )
 
-# ---------- Multi-hot encoding ----------
+# Multi-hot encoding
 multiHot = pd.DataFrame(0, index=range(len(df)), columns=symptoms)
 for i, row in df.iterrows():
     for s in symptomCols:
@@ -40,31 +40,31 @@ for i, row in df.iterrows():
         if val != 'none' and val in multiHot.columns:
             multiHot.at[i, val] = 1
 
-# ---------- Encode diseases ----------
+# Encode diseases
 le = LabelEncoder()
 le.fit(diseases)
 y = le.transform(df["Disease"].apply(lambda d: d.strip().title() if not d.isupper() else d.strip()))
 
-# ---------- Train or Load Model ----------
-model_path = "disease_model.joblib"
-encoder_path = "label_encoder.joblib"
-columns_path = "symptoms_columns.joblib"
+# Train or Load Model
+model_path = "disease_model.pkl"
+encoder_path = "label_encoder.pkl"
+columns_path = "symptoms_columns.pkl"
 
 if os.path.exists(model_path) and os.path.exists(encoder_path):
-    print("✅ Loading saved model...")
+    print("Loading saved model...")
     model = joblib.load(model_path)
     le = joblib.load(encoder_path)
     symptoms = joblib.load(columns_path)
 else:
-    print("⚙️ Training new model...")
+    print("Training new model...")
     model = MultinomialNB()
     model.fit(multiHot, y)
     joblib.dump(model, model_path)
     joblib.dump(le, encoder_path)
     joblib.dump(symptoms, columns_path)
-    print("💾 Model saved successfully!")
+    print("Model saved successfully!")
 
-# ---------- Build disease-symptom mapping ----------
+# Build disease-symptom mapping
 diseaseSymptomDict = {}
 for i, row in df.iterrows():
     diseaseName = row["Disease"].strip().title() if not row["Disease"].isupper() else row["Disease"].strip()
@@ -75,9 +75,9 @@ for i, row in df.iterrows():
             syms.append(symptomsDict.get(val, val))
     diseaseSymptomDict.setdefault(diseaseName, set()).update(syms)
 
-# ---------- Prediction Loop ----------
+# Prediction Loop
 while True:
-    print("\n--- Symptoms List ---")
+    print("\nSymptoms List")
     cols = 4
     for i in range(0, len(symptomsUser), cols):
         row = symptomsUser[i:i + cols]
