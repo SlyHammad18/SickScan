@@ -75,6 +75,11 @@ for i, row in df.iterrows():
             syms.append(symptomsDict.get(val, val))
     diseaseSymptomDict.setdefault(diseaseName, set()).update(syms)
 
+# Save disease-symptom mapping
+import json
+with open("disease_symptom_dict.json", "w") as f:
+    json.dump({k: list(v) for k, v in diseaseSymptomDict.items()}, f, indent=4)
+
 # Prediction Loop
 while True:
     print("\nSymptoms List")

@@ -1,0 +1,405 @@
+{
+    "Fungal Infection": [
+        "Skin Rash",
+        "Itching",
+        "Nodal Skin Eruptions",
+        "Dischromic  Patches"
+    ],
+    "Allergy": [
+        "Continuous Sneezing",
+        "Watering From Eyes",
+        "Shivering",
+        "Chills"
+    ],
+    "GERD": [
+        "Cough",
+        "Acidity",
+        "Stomach Pain",
+        "Chest Pain",
+        "Vomiting",
+        "Ulcers On Tongue"
+    ],
+    "Chronic Cholestasis": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Loss Of Appetite",
+        "Nausea",
+        "Vomiting",
+        "Itching",
+        "Yellowing Of Eyes"
+    ],
+    "Drug Reaction": [
+        "Spotting  Urination",
+        "Stomach Pain",
+        "Skin Rash",
+        "Burning Micturition",
+        "Itching"
+    ],
+    "Peptic Ulcer Diseae": [
+        "Passage Of Gases",
+        "Abdominal Pain",
+        "Indigestion",
+        "Loss Of Appetite",
+        "Internal Itching",
+        "Vomiting"
+    ],
+    "AIDS": [
+        "Extra Marital Contacts",
+        "Muscle Wasting",
+        "Patches In Throat",
+        "High Fever"
+    ],
+    "Diabetes": [
+        "Polyuria",
+        "Excessive Hunger",
+        "Weight Loss",
+        "Fatigue",
+        "Blurred And Distorted Vision",
+        "Irregular Sugar Level",
+        "Lethargy",
+        "Obesity",
+        "Restlessness",
+        "Increased Appetite"
+    ],
+    "Gastroenteritis": [
+        "Vomiting",
+        "Diarrhoea",
+        "Dehydration",
+        "Sunken Eyes"
+    ],
+    "Bronchial Asthma": [
+        "Mucoid Sputum",
+        "Cough",
+        "Fatigue",
+        "High Fever",
+        "Breathlessness",
+        "Family History"
+    ],
+    "Hypertension": [
+        "Dizziness",
+        "Lack Of Concentration",
+        "Loss Of Balance",
+        "Headache",
+        "Chest Pain"
+    ],
+    "Migraine": [
+        "Stiff Neck",
+        "Irritability",
+        "Excessive Hunger",
+        "Indigestion",
+        "Blurred And Distorted Vision",
+        "Acidity",
+        "Headache",
+        "Visual Disturbances",
+        "Depression"
+    ],
+    "Cervical Spondylosis": [
+        "Back Pain",
+        "Weakness In Limbs",
+        "Dizziness",
+        "Loss Of Balance",
+        "Neck Pain"
+    ],
+    "Paralysis (Brain Hemorrhage)": [
+        "Weakness Of One Body Side",
+        "Vomiting",
+        "Altered Sensorium",
+        "Headache"
+    ],
+    "Jaundice": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Weight Loss",
+        "Dark Urine",
+        "Fatigue",
+        "High Fever",
+        "Vomiting",
+        "Itching"
+    ],
+    "Malaria": [
+        "High Fever",
+        "Nausea",
+        "Headache",
+        "Vomiting",
+        "Diarrhoea",
+        "Muscle Pain",
+        "Sweating",
+        "Chills"
+    ],
+    "Chicken Pox": [
+        "Swelled Lymph Nodes",
+        "Red Spots Over Body",
+        "Fatigue",
+        "High Fever",
+        "Loss Of Appetite",
+        "Headache",
+        "Skin Rash",
+        "Mild Fever",
+        "Lethargy",
+        "Malaise",
+        "Itching"
+    ],
+    "Dengue": [
+        "Back Pain",
+        "Red Spots Over Body",
+        "Fatigue",
+        "High Fever",
+        "Nausea",
+        "Headache",
+        "Loss Of Appetite",
+        "Vomiting",
+        "Skin Rash",
+        "Muscle Pain",
+        "Malaise",
+        "Pain Behind The Eyes",
+        "Chills",
+        "Joint Pain"
+    ],
+    "Typhoid": [
+        "Belly Pain",
+        "Abdominal Pain",
+        "Toxic Look (Typhos)",
+        "Fatigue",
+        "High Fever",
+        "Nausea",
+        "Headache",
+        "Constipation",
+        "Vomiting",
+        "Diarrhoea",
+        "Chills"
+    ],
+    "Hepatitis A": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Dark Urine",
+        "Nausea",
+        "Loss Of Appetite",
+        "Vomiting",
+        "Diarrhoea",
+        "Mild Fever",
+        "Yellowing Of Eyes",
+        "Muscle Pain",
+        "Joint Pain"
+    ],
+    "Hepatitis B": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Dark Urine",
+        "Fatigue",
+        "Receiving Blood Transfusion",
+        "Loss Of Appetite",
+        "Receiving Unsterile Injections",
+        "Yellow Urine",
+        "Lethargy",
+        "Malaise",
+        "Itching",
+        "Yellowing Of Eyes"
+    ],
+    "Hepatitis C": [
+        "Yellowish Skin",
+        "Fatigue",
+        "Loss Of Appetite",
+        "Nausea",
+        "Family History",
+        "Yellowing Of Eyes"
+    ],
+    "Hepatitis D": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Dark Urine",
+        "Fatigue",
+        "Nausea",
+        "Loss Of Appetite",
+        "Vomiting",
+        "Yellowing Of Eyes",
+        "Joint Pain"
+    ],
+    "Hepatitis E": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Acute Liver Failure",
+        "Dark Urine",
+        "High Fever",
+        "Fatigue",
+        "Nausea",
+        "Loss Of Appetite",
+        "Vomiting",
+        "Yellowing Of Eyes",
+        "Stomach Bleeding",
+        "Coma",
+        "Joint Pain"
+    ],
+    "Alcoholic Hepatitis": [
+        "Yellowish Skin",
+        "Abdominal Pain",
+        "Fluid Overload",
+        "Vomiting",
+        "Swelling Of Stomach",
+        "History Of Alcohol Consumption",
+        "Distention Of Abdomen"
+    ],
+    "Tuberculosis": [
+        "Swelled Lymph Nodes",
+        "Cough",
+        "Weight Loss",
+        "Fatigue",
+        "High Fever",
+        "Loss Of Appetite",
+        "Chest Pain",
+        "Vomiting",
+        "Mild Fever",
+        "Breathlessness",
+        "Phlegm",
+        "Blood In Sputum",
+        "Malaise",
+        "Sweating",
+        "Chills",
+        "Yellowing Of Eyes"
+    ],
+    "Common Cold": [
+        "Congestion",
+        "Swelled Lymph Nodes",
+        "Cough",
+        "Sinus Pressure",
+        "Fatigue",
+        "High Fever",
+        "Headache",
+        "Continuous Sneezing",
+        "Redness Of Eyes",
+        "Chest Pain",
+        "Throat Irritation",
+        "Phlegm",
+        "Loss Of Smell",
+        "Muscle Pain",
+        "Malaise",
+        "Runny Nose",
+        "Chills"
+    ],
+    "Pneumonia": [
+        "Cough",
+        "Fatigue",
+        "High Fever",
+        "Chest Pain",
+        "Fast Heart Rate",
+        "Breathlessness",
+        "Phlegm",
+        "Malaise",
+        "Rusty Sputum",
+        "Sweating",
+        "Chills"
+    ],
+    "Dimorphic Hemmorhoids(Piles)": [
+        "Pain In Anal Region",
+        "Constipation",
+        "Bloody Stool",
+        "Pain During Bowel Movements",
+        "Irritation In Anus"
+    ],
+    "Heart Attack": [
+        "Chest Pain",
+        "Vomiting",
+        "Breathlessness",
+        "Sweating"
+    ],
+    "Varicose Veins": [
+        "Swollen Blood Vessels",
+        "Cramps",
+        "Fatigue",
+        "Prominent Veins On Calf",
+        "Bruising",
+        "Swollen Legs",
+        "Obesity"
+    ],
+    "Hypothyroidism": [
+        "Irritability",
+        "Dizziness",
+        "Abnormal Menstruation",
+        "Fatigue",
+        "Swollen Extremeties",
+        "Cold Hands And Feets",
+        "Puffy Face And Eyes",
+        "Enlarged Thyroid",
+        "Brittle Nails",
+        "Lethargy",
+        "Mood Swings",
+        "Depression",
+        "Weight Gain"
+    ],
+    "Hyperthyroidism": [
+        "Irritability",
+        "Excessive Hunger",
+        "Weight Loss",
+        "Abnormal Menstruation",
+        "Fatigue",
+        "Diarrhoea",
+        "Fast Heart Rate",
+        "Sweating",
+        "Muscle Weakness",
+        "Mood Swings",
+        "Restlessness"
+    ],
+    "Hypoglycemia": [
+        "Irritability",
+        "Excessive Hunger",
+        "Fatigue",
+        "Palpitations",
+        "Nausea",
+        "Headache",
+        "Blurred And Distorted Vision",
+        "Vomiting",
+        "Drying And Tingling Lips",
+        "Sweating",
+        "Slurred Speech",
+        "Anxiety"
+    ],
+    "Osteoarthristis": [
+        "Knee Pain",
+        "Hip Joint Pain",
+        "Painful Walking",
+        "Neck Pain",
+        "Swelling Joints",
+        "Joint Pain"
+    ],
+    "Arthritis": [
+        "Stiff Neck",
+        "Muscle Weakness",
+        "Painful Walking",
+        "Swelling Joints",
+        "Movement Stiffness"
+    ],
+    "(Vertigo) Paroymsal  Positional Vertigo": [
+        "Unsteadiness",
+        "Loss Of Balance",
+        "Nausea",
+        "Headache",
+        "Spinning Movements",
+        "Vomiting"
+    ],
+    "Acne": [
+        "Blackheads",
+        "Skin Rash",
+        "Pus Filled Pimples",
+        "Scurring"
+    ],
+    "Urinary Tract Infection": [
+        "Burning Micturition",
+        "Continuous Feel Of Urine",
+        "Bladder Discomfort",
+        "Foul Smell Of Urine"
+    ],
+    "Psoriasis": [
+        "Silver Like Dusting",
+        "Skin Rash",
+        "Small Dents In Nails",
+        "Inflammatory Nails",
+        "Skin Peeling",
+        "Joint Pain"
+    ],
+    "Impetigo": [
+        "Red Sore Around Nose",
+        "Blister",
+        "High Fever",
+        "Skin Rash",
+        "Yellow Crust Ooze"
+    ]
+}
