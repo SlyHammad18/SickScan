@@ -16,7 +16,7 @@
     "anxiety": ["Anxiety", "nervousness", "anxious", "feeling anxious", "panic attacks", "feeling nervous", "worried", "stressed", "panicked", "on edge", "uneasy", "sense of dread", "restlessness", "overwhelming worry", "fearful", "agitated", "tense", "irritable", "catastrophic thinking", "constant worry", "panic feeling"],
     "back_pain": ["Back Pain", "sore back", "aching back", "pain in my back", "lower back pain", "upper back pain", "backache", "stiff back", "pulled back muscle", "back strain", "throbbing back", "sharp back pain", "dull back pain", "back hurts", "lumbar pain", "thoracic pain", "spinal pain", "pain in the spine", "back muscle pain", "radiating back pain"],
     "belly_pain": [
-  "pain in belly", "sore belly", "belly hurts", "stomach ache",
+  "belly Pain", "pain in belly", "sore belly", "belly hurts", "stomach ache",
   "abdominal pain", "tummy pain", "belly discomfort", "cramps in belly",
   "stomach cramps", "pain in abdomen", "abdominal discomfort", "tummy ache",
   "bellyache", "pain in gut", "abdominal ache", "cramping stomach", "stomach soreness",
@@ -25,7 +25,7 @@
 ]
 ,
     "blackheads": [
-  "comedones", "clogged pores", "skin blackheads", "facial blackheads",
+  "Blackheads", "comedones", "clogged pores", "skin blackheads", "facial blackheads",
   "nose blackheads", "skin spots", "pore blockages", "sebaceous plugs",
   "skin blemishes", "blocked pores", "tiny dark spots", "black skin spots",
   "clogged skin pores", "face comedones", "blackhead spots", "pore acne",
@@ -33,7 +33,7 @@
   "blocked skin follicles", "comedone formation", "pore blockage", "skin plugs"
 ]
 ,
-    "bladder_discomfort": [
+    "bladder_discomfort": [ "Bladder Discomfort",
   "uncomfortable bladder", "bladder pressure", "bladder irritation", "painful bladder",
   "urinary discomfort", "bladder pain", "bladder unease", "pressure in bladder",
   "burning bladder sensation", "bladder fullness", "bladder ache", "discomfort while urinating",
@@ -42,7 +42,7 @@
 ]
 ,
     "blister": [
-  "blisters", "skin blister", "fluid-filled bump", "blister formation",
+  "Blisters", "skin blister", "fluid-filled bump", "blister formation",
   "raised skin bump", "skin bubble", "friction blister", "painful blister",
   "blistered skin", "skin vesicle", "blistered lesion", "skin swelling",
   "small fluid bump", "blister spot", "skin pustule", "burn blister", "blister patch",
@@ -50,7 +50,7 @@
   "skin vesicle formation", "skin bubble lesion", "blistering bump", "blister outbreak"
 ]
 ,
-    "blood_in_sputum": [
+    "blood_in_sputum": ["Blood in Sputum",
   "coughing up blood", "bloody phlegm", "hemoptysis", "blood-streaked sputum",
   "spitting blood", "blood in mucus", "bloody mucus", "respiratory bleeding",
   "phlegm with blood", "coughing blood", "sputum with blood", "blood-tinged phlegm",
@@ -60,7 +60,7 @@
   "coughing up reddish sputum", "coughing up red phlegm", "sputum streaked with blood"
 ]
 ,
-    "bloody_stool": [
+    "bloody_stool": ["Bloody Stool",
   "blood in stool", "rectal bleeding", "blood in my poop", "maroon stool",
   "bright red blood in stool", "bloody feces", "stool with blood", "blood-streaked stool",
   "dark blood in stool", "red stool", "hematochesia", "rectal blood",
@@ -72,7 +72,7 @@
 ,
     "blurred_and_distorted_vision": ["Blurred And Distorted Vision", "blurry vision", "distorted vision", "unclear vision", "fuzzy vision", "vision is not sharp", "can't see clearly", "hazy vision", "out of focus vision", "double vision", "wavy vision", "lines look crooked", "objects are warped", "vision changes", "seeing halos", "poor eyesight", "difficulty focusing", "everything looks blurry", "my eyes are blurry", "vision is hazy"],
     "breathlessness": ["Breathlessness", "short of breath", "shortness of breath", "can't catch my breath", "difficulty breathing", "labored breathing", "winded", "out of breath", "panting", "gasping for air", "feeling breathless", "respiratory distress", "air hunger", "can't take a deep breath", "shallow breathing", "struggling to breathe", "breathing difficulty", "feeling suffocated", "tightness in chest and breathing", "wheezing"],
-    "brittle_nails": [
+    "brittle_nails": ["Brittle Nails",
   "nails break easily", "chipping nails", "fragile nails", "weak nails",
   "splitting nails", "nail fragility", "nails prone to cracking", "nail breakage",
   "nail splitting", "thin nails", "nail brittleness", "fragile fingernails",
@@ -82,7 +82,7 @@
   "prone to nail break", "nail peeling"
 ]
 ,
-    "bruising": [
+    "bruising": ["Bruising",
   "bruise easily", "easy bruising", "unexplained bruises", "skin bruises",
   "spontaneous bruising", "hematoma formation", "purple marks on skin", "bruised skin",
   "skin discoloration from bruising", "tender bruises", "minor trauma bruises", "bleeding under skin",
@@ -92,7 +92,7 @@
   "skin markings from bruises"
 ]
 ,
-    "burning_micturition": [
+    "burning_micturition": ["Burning Micturition",
   "painful urination", "burns when I pee", "burning when I urinate", "stinging during urination",
   "dysuria", "urination discomfort", "pain while peeing", "burning sensation in urethra",
   "burning urine", "painful pee", "urinary burning", "pain on urination", "urethral burning",
@@ -103,7 +103,7 @@
 ]
 ,
     "chest_pain": ["Chest Pain", "chest tightness", "pain in my chest", "chest discomfort", "aching chest", "sharp chest pain", "dull chest pain", "pressure in chest", "squeezing in chest", "chest soreness", "stabbing pain in chest", "angina", "pain in the heart area", "chest ache", "crushing chest pain", "burning in chest", "tight chest", "chest pressure", "chest hurts", "discomfort in chest"],
-    "chills": [
+    "chills": ["Chills",
   "shivering", "feeling cold", "the chills", "rigors", "cold shivers",
   "body trembling", "goosebumps", "fever chills", "chilliness", "cold feeling",
   "shakes", "trembling from cold", "chilly sensation", "body shivering", "cold spells",
@@ -112,7 +112,7 @@
   "sudden chills", "cold shudder"
 ]
 ,
-    "cold_hands_and_feets": [
+    "cold_hands_and_feets": ["Cold Hands And Feets",
   "cold hands", "cold feet", "cold extremities", "chilly hands", "chilly feet",
   "hands feel cold", "feet feel cold", "peripheral coldness", "cold fingertips",
   "cold toes", "cold limbs", "numb hands", "numb feet", "circulation coldness",
@@ -121,7 +121,7 @@
   "cold peripheral limbs", "cold hand and foot sensation", "cold extremity feeling"
 ]
 ,
-    "coma": [
+    "coma": ["Coma",
   "unconsciousness", "deep unconscious state", "unresponsive state", "lack of consciousness",
   "stupor", "prolonged unconsciousness", "non-responsive state", "comatose state",
   "deep sleep-like state", "loss of awareness", "unconscious episode", "coma condition",
@@ -131,7 +131,7 @@
   "persistent unresponsiveness", "coma-like state"
 ]
 ,
-    "congestion": [
+    "congestion": ["Congestion",
   "stuffy nose", "nasal congestion", "blocked nose", "sinus congestion",
   "nasal blockage", "clogged nose", "runny blocked nose", "nasal stuffiness",
   "sinus blockage", "difficulty breathing through nose", "nose obstruction",
@@ -141,7 +141,7 @@
   "difficulty breathing through nasal passage", "nasal passage blockage", "nose congestion episode"
 ]
 ,
-    "constipation": [
+    "constipation": ["Constipation",
   "can't poop", "difficulty with bowel movement", "straining to poop", "infrequent stools",
   "hard stools", "difficulty passing stool", "bowel movement problems", "constipated",
   "tight stools", "stool retention", "slow bowel movements", "infrequent bowel movement",
@@ -151,7 +151,7 @@
   "stool difficulty episode", "fecal retention"
 ]
 ,
-    "continuous_feel_of_urine": [
+    "continuous_feel_of_urine": ["Continuous Feel of Urine",
   "always feel like I have to pee", "constant urge to urinate", "urinary urgency",
   "frequent urge to urinate", "need to urinate constantly", "urination sensation persists",
   "feeling of full bladder", "frequent peeing sensation", "urge to pee often",
@@ -162,7 +162,7 @@
   "constant need to pee", "persistent urination urge", "urinary urgency symptom"
 ]
 ,
-    "continuous_sneezing": [
+    "continuous_sneezing": ["Continuous Sneezing",
   "sneezing a lot", "can't stop sneezing", "sneezing fits", "persistent sneezing",
   "frequent sneezing", "repeated sneezes", "sneeze attacks", "sneezing episodes",
   "uncontrollable sneezing", "sneezing sprees", "continuous bouts of sneezing",
@@ -172,7 +172,7 @@
   "continuous nasal reflex", "sneeze series"
 ]
 ,
-    "cough": [
+    "cough": ["Cough",
   "persistent cough", "hacking cough", "dry cough", "wet cough", "chesty cough",
   "a bad cough", "coughing fits", "continuous cough", "coughing episodes", "cough attacks",
   "frequent coughing", "coughing spells", "irritating cough", "cough reflex", "cough symptom",
@@ -181,7 +181,7 @@
   "cough with phlegm"
 ]
 ,
-    "cramps": [
+    "cramps": ["Cramps",
   "cramping", "muscle cramps", "muscle spasms", "stomach cramps", "abdominal cramps",
   "leg cramps", "painful muscle contractions", "cramp attacks", "spasmodic pain",
   "cramping sensation", "muscle tightness", "muscle twinges", "intense cramping",
@@ -191,7 +191,7 @@
   "spasms in muscles"
 ]
 ,
-    "dark_urine": [
+    "dark_urine": ["Dark Urine",
   "dark pee", "dark-colored urine", "brown urine", "orange urine", "deep urine color",
   "urine discoloration", "tea-colored urine", "concentrated urine", "urine pigment change",
   "urine turns dark", "dark yellow urine", "urine color abnormality", "strong-colored urine",
@@ -200,7 +200,7 @@
   "urine color change", "urine brownish hue", "urine amber color", "urine dark shade"
 ]
 ,
-    "dehydration": [
+    "dehydration": ["Dehydration",
   "thirsty", "not enough water", "dry mouth", "dry lips", "low body fluids",
   "fluid loss", "lack of hydration", "dehydrated", "excessive thirst", "dry skin",
   "reduced urine output", "dark urine", "fatigue from dehydration", "dizziness from dehydration",
@@ -209,7 +209,7 @@
   "dehydrated condition", "insufficient water intake", "body lacks fluids"
 ]
 ,
-    "depression": [
+    "depression": ["Depression",
   "feeling down", "feeling sad", "hopeless", "loss of interest", "persistent sadness",
   "low mood", "melancholy", "despondent", "feeling empty", "gloomy",
   "feeling worthless", "unmotivated", "mental fatigue", "emotional low", "mood disorder",
@@ -218,7 +218,7 @@
   "psychological sadness", "depressive mood"
 ]
 ,
-    "diarrhoea": [
+    "diarrhoea": ["Diarrhea",
   "the runs", "loose stools", "watery stools", "frequent bowel movement",
   "liquid stools", "soft stools", "stomach upset with loose stools", "intestinal upset",
   "runny stools", "bowel looseness", "frequent defecation", "loose poop",
@@ -228,7 +228,7 @@
   "bowel discharge watery", "frequent runny poop"
 ]
 ,
-    "dischromic__patches": [
+    "dischromic__patches": ["Dischromic Patches",
   "skin discoloration", "uneven skin tone", "pigment spots", "skin patches",
   "dark spots", "light patches", "hyperpigmentation", "hypopigmentation",
   "colored skin spots", "skin blemishes", "patchy skin", "color irregularities",
@@ -238,7 +238,7 @@
   "skin tone blotches", "uneven colored patches"
 ]
 ,
-    "distention_of_abdomen": [
+    "distention_of_abdomen": ["Distention Of Abdomen",
   "bloated stomach", "swollen abdomen", "abdominal bloating", "feeling bloated",
   "abdominal swelling", "stomach distension", "tummy swelling", "swollen belly",
   "abdominal fullness", "stomach enlargement", "bloating sensation", "belly distension",
@@ -248,7 +248,7 @@
   "stomach feels full", "abdominal distention symptom"
 ]
 ,
-    "dizziness": [
+    "dizziness": ["Dizziness",
   "dizzy", "lightheaded", "feeling faint", "woozy", "room is spinning",
   "vertigo", "unsteady", "giddy", "loss of balance", "faint feeling",
   "head spinning", "off balance", "dizzy spells", "dizzy sensation", "disequilibrium",
@@ -257,7 +257,7 @@
   "feeling off-kilter", "dizzy attack", "light-headedness"
 ]
 ,
-    "drying_and_tingling_lips": [
+    "drying_and_tingling_lips": ["Drying And Tingling Lips",
   "dry lips", "tingling lips", "chapped lips", "lip dryness", "pins and needles on lips",
   "prickling lips", "burning lips", "tight lips", "cracked lips", "lip irritation",
   "lip discomfort", "sensation on lips", "tingly lips", "dry and sore lips", "parched lips",
@@ -266,7 +266,7 @@
   "lip tingling sensation", "dry lips symptom"
 ]
 ,
-    "enlarged_thyroid": [
+    "enlarged_thyroid": ["Enlarged Thyroid",
   "swelling in neck", "goiter", "thyroid swelling", "neck enlargement",
   "swollen thyroid gland", "thyroid enlargement", "lump in neck", "neck swelling",
   "enlarged neck gland", "thyroid nodule", "swollen neck area", "neck lump",
@@ -276,7 +276,7 @@
   "bulging thyroid", "neck gland swelling"
 ]
 ,
-    "excessive_hunger": [
+    "excessive_hunger": ["Excessive Hunger",
   "always hungry", "increased appetite", "polyphagia", "never feel full",
   "insatiable hunger", "constant hunger", "overeating urge", "persistent hunger",
   "always want to eat", "extreme appetite", "ravenous hunger", "hunger pangs",
@@ -286,7 +286,7 @@
   "abnormal appetite", "excessive food craving"
 ]
 ,
-    "extra_marital_contacts": [
+    "extra_marital_contacts": ["Extra Marital Contacts",
   "infidelity", "affair", "cheating partner", "extramarital affair", "unfaithfulness",
   "relationship outside marriage", "adultery", "partner cheating", "secret relationship",
   "outside partner", "illicit relationship", "marital betrayal", "cheating spouse", "affair outside marriage",
@@ -295,7 +295,7 @@
   "illegitimate relationship", "marital misconduct", "cheating act", "extramarital liaison"
 ]
 ,
-    "family_history": [
+    "family_history": ["Family History",
   "genetic background", "hereditary history", "family medical history", "inherited conditions",
   "ancestral health issues", "family illnesses", "hereditary traits", "family predisposition",
   "genetic predisposition", "family disease history", "medical history of relatives", "hereditary diseases",
@@ -304,7 +304,7 @@
   "family illness record", "bloodline diseases", "familial history", "hereditary illnesses", "ancestral disorders"
 ]
 ,
-    "fast_heart_rate": [
+    "fast_heart_rate": ["Fast Heart Rate",
   "racing heart", "rapid heartbeat", "tachycardia", "heart is pounding",
   "increased heart rate", "palpitations", "accelerated heartbeat", "quick heartbeats",
   "fast pulse", "heart racing", "elevated heart rate", "fluttering heart", "heartbeat rapid",
@@ -314,7 +314,7 @@
   "racing pulse"
 ]
 ,
-    "fatigue": [
+    "fatigue": ["Fatigue",
   "tiredness", "exhaustion", "no energy", "always tired", "feeling tired",
   "worn out", "drained", "lethargic", "sluggish", "wiped out",
   "extreme tiredness", "persistent fatigue", "lack of energy", "feeling drained", "physically tired",
@@ -323,7 +323,7 @@
   "weariness", "fatigue symptom"
 ]
 ,
-    "fluid_overload": [
+    "fluid_overload": ["Fluid Overload",
   "fluid retention", "edema", "swelling due to fluids", "water retention",
   "body swelling", "excess body fluid", "overhydration", "fluid accumulation",
   "swollen limbs", "ankle swelling", "leg edema", "puffy hands", "fluid buildup",
@@ -333,7 +333,7 @@
   "fluid overload condition"
 ]
 ,
-    "foul_smell_of_urine": [
+    "foul_smell_of_urine": ["Foul Smell Of Urine",
   "bad smelling urine", "strong smelling urine", "urine odor", "urine smells bad",
   "unpleasant urine smell", "urine stench", "offensive urine odor", "smelly pee",
   "urine malodor", "urine with strong smell", "urine with bad odor", "urine stinky",
@@ -343,7 +343,7 @@
   "unpleasant smelling urine", "urine smell issue"
 ]
 ,
-    "headache": [
+    "headache": ["Headache",
   "head pain", "sore head", "migraine", "pounding headache", "throbbing head",
   "head hurts", "head discomfort", "cephalalgia", "tension headache", "pressure in head",
   "aching head", "painful head", "head pressure", "migraine attack", "intense head pain",
@@ -352,7 +352,7 @@
   "pain in skull"
 ]
 ,
-    "high_fever": [
+    "high_fever": ["High Fever",
   "high temperature", "feverish", "running a fever", "burning up", "elevated temperature",
   "fever episode", "temperature spike", "pyrexia", "fever symptom", "body temperature high",
   "hot body", "intense fever", "fever attack", "high body heat", "heat in body",
@@ -361,7 +361,7 @@
   "temperature symptom"
 ]
 ,
-    "hip_joint_pain": [
+    "hip_joint_pain": ["Hip Joint Pain",
   "hip pain", "sore hip", "pain in hip joint", "hip discomfort", "hip ache",
   "throbbing hip", "hip joint tenderness", "pain around hip", "hip stiffness",
   "hip soreness", "hip joint ache", "hip joint discomfort", "hip pain episode",
@@ -370,7 +370,7 @@
   "hip region pain", "pain in upper leg near hip", "hip joint ache feeling", "hip joint pain symptom"
 ]
 ,
-    "history_of_alcohol_consumption": [
+    "history_of_alcohol_consumption": ["History Of Alcohol Consumption",
   "alcoholic", "drinking alcohol", "alcoholism", "drinking too much", "heavy drinker",
   "frequent alcohol use", "alcohol intake history", "past alcohol consumption", "habitual drinking",
   "chronic alcohol use", "alcohol use disorder", "past drinking history", "regular alcohol consumption",
@@ -394,7 +394,7 @@
   "feeling stuffed", "stomach not settling", "gas and indigestion"
 ]
 ,
-    "inflammatory_nails": [
+    "inflammatory_nails": ["Inflammatory Nails",
   "inflamed nails", "swollen nails", "red nails", "painful nails",
   "tender nails", "nail inflammation", "swelling around nails",
   "pain around fingernail", "nail bed swelling", "nail infection symptoms",
@@ -406,7 +406,7 @@
   "infected cuticle", "sore fingertips near nail"
 ]
 ,
-    "internal_itching": [
+    "internal_itching": ["Internal Itching",
   "internal itching", "itching inside body", "deep itching",
   "itching under skin", "can't scratch itch", "inner body itch",
   "itchy feeling inside", "internal pruritus", "deep skin irritation",
@@ -417,7 +417,7 @@
   "weird inner itch", "itching with no surface cause"
 ]
 ,
-    "irregular_sugar_level": [
+    "irregular_sugar_level": ["Irregular Sugar Level",
   "irregular blood sugar", "blood sugar swings", "unstable sugar levels",
   "high and low sugar fluctuations", "glucose spikes", "sugar crashing",
   "sugar going up and down", "sugar instability", "glucose imbalance",
@@ -430,7 +430,7 @@
   "frequent sugar changes"
 ]
 ,
-    "irritability": [
+    "irritability": ["Irritability",
   "irritable", "easily annoyed", "short tempered", "grumpy",
   "touchy", "snappy", "moody", "quick to anger", "restless",
   "impatient", "cranky", "frustrated easily", "sensitive",
@@ -439,7 +439,7 @@
   "easily frustrated", "annoyed by small things", "losing temper quickly"
 ]
 ,
-    "irritation_in_anus": [
+    "irritation_in_anus": ["Irritation In Anus",
   "itching in anus", "pain in asshole", "itching in asshole", "itchy anus",
   "anal discomfort", "burning in anus", "anal itching", "sore anus",
   "painful rectum", "rectal itch", "pruritus ani", "pain during wiping",
@@ -450,7 +450,7 @@
   "irritation after bowel movement"
 ]
 ,
-    "itching": [
+    "itching": ["Itching",
   "itchy skin", "pruritus", "skin itch", "skin irritation",
   "uncontrollable itch", "scratchy skin", "burning itch", "red itchy skin",
   "persistent itch", "all-over itch", "localized itch", "tingling itch",
@@ -460,7 +460,7 @@
   "irritated skin", "itching with bumps", "intense itch"
 ]
 ,
-    "joint_pain": [
+    "joint_pain": ["Joint Pain",
   "aching joints", "sore joints", "arthralgia", "pain in joints",
   "joint discomfort", "stiff joints", "inflamed joints", "swollen joints",
   "tender joints", "joint stiffness", "painful movement", "joint ache",
@@ -471,7 +471,7 @@
   "joint pain while resting", "pain in hips"
 ]
 ,
-    "knee_pain": [
+    "knee_pain": ["Knee Pain",
   "sore knee", "pain in knee", "knee discomfort", "stiff knee",
   "swollen knee", "tender knee", "knee ache", "painful knee",
   "knees hurt when bending", "knees hurt when walking", "knee inflammation",
@@ -481,7 +481,7 @@
   "knee soreness", "pain after climbing stairs", "pain after standing long"
 ]
 ,
-    "lack_of_concentration": [
+    "lack_of_concentration": ["Lack Of Concentration",
   "can't concentrate", "can't focus", "difficulty concentrating", "mind wandering",
   "easily distracted", "unable to pay attention", "scattered thoughts",
   "forgetful", "mental fog", "brain fog", "inattentive", "trouble focusing",
@@ -492,7 +492,7 @@
   "trouble following instructions", "absent-minded"
 ]
 ,
-    "lethargy": [
+    "lethargy": ["Lethargy",
   "sluggish", "low energy", "tired all the time", "fatigued", "exhausted",
   "weak", "feeling drained", "no motivation", "lack of energy", "sleepy",
   "sleepiness", "drowsy", "lethargic", "slow movements", "difficulty getting up",
@@ -501,7 +501,7 @@
   "weak and tired", "feeling weak"
 ]
 ,
-    "loss_of_appetite": [
+    "loss_of_appetite": ["Loss Of Appetite",
   "no appetite", "not hungry", "don't want to eat", "loss of hunger",
   "reduced appetite", "unable to eat", "avoiding food", "not feeling hungry",
   "no desire to eat", "refusal to eat", "poor appetite", "eating less than usual",
@@ -512,7 +512,7 @@
   "unwillingness to eat", "appetite suppression"
 ]
 ,
-    "loss_of_balance": [
+    "loss_of_balance": ["Loss Of Balance",
   "unbalanced", "unsteady", "poor balance", "tripping often", "staggering",
   "feeling dizzy", "difficulty standing", "falling easily", "vertigo",
   "loss of stability", "feeling off-balance", "wobbly", "tipsy feeling",
@@ -522,7 +522,7 @@
   "feeling tipped over", "stumbling while walking", "balance issues"
 ]
 ,
-    "loss_of_smell": [
+    "loss_of_smell": ["Loss Of Smell",
   "can't smell anything", "anosmia", "no sense of smell", "smell loss",
   "unable to detect odors", "odorless perception", "reduced smell",
   "smell impaired", "no scent detection", "cannot smell food", "loss of olfaction",
@@ -533,7 +533,7 @@
   "smell sensitivity lost", "no smell awareness"
 ]
 ,
-    "malaise": [
+    "malaise": ["Malaise",
   "general discomfort", "feeling unwell", "vaguely sick", "not feeling right",
   "uneasy feeling", "overall weakness", "body aches", "tired and unwell",
   "feeling off", "discomfort throughout body", "low energy", "sickly feeling",
@@ -543,7 +543,7 @@
   "poor health feeling", "general fatigue", "general weakness"
 ]
 ,
-    "mild_fever": [
+    "mild_fever": ["Mild Fever",
   "low grade fever", "slight temperature", "fever", "mild temperature rise",
   "slight fever", "warm feeling", "feverish", "slight chills", "slight body heat",
   "mildly hot", "elevated temperature", "low fever", "feeling warm",
@@ -552,7 +552,7 @@
   "body feels hot", "subfebrile", "slight warmth", "heat in body", "slightly febrile"
 ]
 ,
-    "mood_swings": [
+    "mood_swings": ["Mood Swings",
   "emotional swings", "rapid mood changes", "irregular moods", "unstable mood",
   "feeling up and down", "quickly changing emotions", "sudden anger",
   "sudden happiness", "sudden sadness", "sensitive emotions", "moody",
@@ -563,7 +563,7 @@
   "rapidly shifting feelings", "emotional ups and downs", "volatile emotions"
 ]
 ,
-    "movement_stiffness": [
+    "movement_stiffness": ["Movement Stiffness",
   "stiff movements", "difficulty moving", "reduced mobility", "limited movement",
   "restricted motion", "rigid joints", "tight muscles", "hard to move",
   "movement pain", "stiff muscles", "reduced flexibility", "difficulty walking",
@@ -574,7 +574,7 @@
   "difficulty raising arms or legs"
 ]
 ,
-    "mucoid_sputum": [
+    "mucoid_sputum": ["Mucoid Sputum",
   "mucoid sputum", "thick mucus", "phlegm", "chest mucus", "mucous cough",
   "sticky mucus", "sputum discharge", "mucus buildup", "yellow mucus",
   "white mucus", "greenish mucus", "coughing up mucus", "excess mucus",
@@ -583,7 +583,7 @@
   "chesty phlegm", "thick chest secretions", "copious sputum", "mucus expelled when coughing"
 ]
 ,
-    "muscle_pain": [
+    "muscle_pain": ["Muscle Pain",
   "muscle ache", "sore muscles", "aching muscles", "myalgia", "muscle soreness",
   "pain in muscles", "tender muscles", "muscle stiffness", "muscle discomfort",
   "muscle cramps", "muscle tightness", "muscle fatigue", "aching limbs",
@@ -593,7 +593,7 @@
   "muscle pain all over"
 ]
 ,
-    "muscle_wasting": [
+    "muscle_wasting": ["Muscle Wasting",
   "muscle atrophy", "loss of muscle mass", "shrinking muscles", "muscle thinning",
   "weak muscles", "reduced muscle bulk", "muscle deterioration", "muscle loss",
   "decreased muscle size", "loss of strength", "muscle weakness", "muscle wasting syndrome",
@@ -603,7 +603,7 @@
   "atrophied muscles", "weakened muscles"
 ]
 ,
-    "muscle_weakness": [
+    "muscle_weakness": ["Muscle Weakness",
   "weak muscles", "loss of strength", "reduced power in muscles", "muscle fatigue",
   "can't lift things", "difficulty walking", "limb weakness", "muscle heaviness",
   "muscle loss of function", "lack of muscle strength", "muscles feel soft",
@@ -613,7 +613,7 @@
   "can't perform normal tasks", "weak arms and legs"
 ]
 ,
-    "nausea": [
+    "nausea": ["Nausea",
   "feeling sick", "nauseous", "queasy", "upset stomach", "feel like throwing up",
   "feel like vomiting", "want to vomit", "sick to stomach", "stomach upset",
   "retching feeling", "gagging sensation", "uneasy stomach", "stomach discomfort",
@@ -622,7 +622,7 @@
   "urge to vomit", "stomach queasy", "gastrointestinal discomfort", "motion sickness feeling"
 ]
 ,
-    "neck_pain": [
+    "neck_pain": ["Neck Pain",
   "sore neck", "stiff neck", "pain in neck", "neck discomfort", "tender neck",
   "neck stiffness", "pain in cervical region", "neck ache", "neck tension",
   "limited neck mobility", "neck soreness", "tight neck muscles", "burning neck pain",
@@ -631,7 +631,7 @@
   "pain in nape", "trouble moving neck", "neck throbbing"
 ]
 ,
-    "nodal_skin_eruptions": [
+    "nodal_skin_eruptions": ["Nodal Skin Eruptions",
   "nodal skin eruptions", "lumps on skin", "skin nodules", "raised bumps",
   "inflamed nodules", "painful skin lumps", "nodular lesions", "red bumps",
   "pustular nodules", "swollen skin nodules", "skin lumps with inflammation",
@@ -641,7 +641,7 @@
   "firm skin lumps", "skin eruption spots", "nodules on arms or legs"
 ]
 ,
-    "obesity": [
+    "obesity": ["Obesity",
   "fat", "overweight", "excess body weight", "high BMI", "obese",
   "overweight condition", "excessive weight", "weight gain", "large body",
   "heavy body", "morbid obesity", "adiposity", "overfat", "chubby",
@@ -650,7 +650,7 @@
   "heavyset", "bulkiness", "obese physique"
 ]
 ,
-    "pain_behind_the_eyes": [
+    "pain_behind_the_eyes": ["Pain Behind The Eyes",
   "eye pain", "pain behind eyes", "pressure behind eyes", "orbital pain",
   "eye socket pain", "headache behind eyes", "deep eye ache", "eye discomfort",
   "pain in eyes", "eye throbbing", "eyes feel heavy", "burning behind eyes",
@@ -660,7 +660,7 @@
   "ache behind eyeballs", "behind-the-eye pain"
 ]
 ,
-    "pain_during_bowel_movements": [
+    "pain_during_bowel_movements": ["Pain During Bowel Movements",
   "painful bowel movement", "pain while pooping", "rectal pain when defecating",
   "anal pain during stool", "pain when passing stool", "discomfort during bowel movement",
   "pain in anus while pooping", "burning during bowel movement", "straining pain",
@@ -671,7 +671,7 @@
   "pain in anus while passing stool", "cramping during bowel movement", "rectal discomfort"
 ]
 ,
-    "pain_in_anal_region": [
+    "pain_in_anal_region": ["Pain In Anal Region",
   "painful anus", "painful rectum", "painful rectal region", "anal discomfort",
   "burning in anus", "soreness in anus", "pain in bottom", "anal ache",
   "rectal tenderness", "painful wiping", "pain after bowel movement", "pain around anus",
@@ -681,7 +681,7 @@
   "discomfort in anal region", "anal region pain"
 ]
 ,
-    "painful_walking": [
+    "painful_walking": ["Painful Walking",
   "pain when walking", "difficulty walking", "walking is painful", "leg pain when walking",
   "painful steps", "trouble walking", "walking discomfort", "limping",
   "aching legs while walking", "walking causes pain", "pain in feet when walking",
@@ -692,7 +692,7 @@
   "painful leg movement"
 ]
 ,
-    "palpitations": [
+    "palpitations": ["Palpitations",
   "fluttering in chest", "skipped heartbeat", "heart palpitations", "racing heart",
   "rapid heartbeat", "heart pounding", "irregular heartbeat", "heart thumping",
   "heartbeat irregularities", "feeling heart flutter", "palpitating heart",
@@ -703,7 +703,7 @@
   "palpitating chest"
 ]
 ,
-    "passage_of_gases": [
+    "passage_of_gases": ["Passage Of Gases",
   "gassy", "flatulence", "passing gas", "farting", "gas problem",
   "bloating with gas", "intestinal gas", "frequent gas", "gas expulsion",
   "trapped gas", "belching", "burping", "stomach gas", "intestinal bloating",
@@ -712,7 +712,7 @@
   "digestive gas problem", "flatulent"
 ]
 ,
-    "patches_in_throat": [
+    "patches_in_throat": ["Patches In Throat",
   "white patches in throat", "throat spots", "tonsil patches", "throat lesions",
   "throat sores", "white throat spots", "inflammation in throat", "red patches in throat",
   "throat ulcers", "throat infection spots", "tonsil discoloration", "sore patches",
@@ -721,7 +721,7 @@
   "throat discoloration", "throat blotches", "throat marks", "white coatings in throat"
 ]
 ,
-    "phlegm": [
+    "phlegm": ["Phlegm",
   "sputum", "mucus in chest", "thick mucus", "chest congestion", "mucus buildup",
   "yellow phlegm", "green phlegm", "coughing up phlegm", "respiratory mucus",
   "mucus secretion", "thick sputum", "phlegmy cough", "copious phlegm",
@@ -731,7 +731,7 @@
   "mucous buildup in chest"
 ]
 ,
-    "polyuria": [
+    "polyuria": ["Polyuria",
   "frequent urination", "peeing a lot", "urinating frequently", "excessive urination",
   "passing urine often", "high urine output", "urination more than usual",
   "needing to pee frequently", "frequent trips to bathroom", "excessive peeing",
@@ -742,7 +742,7 @@
   "urinary urgency"
 ]
 ,
-    "prominent_veins_on_calf": [
+    "prominent_veins_on_calf": ["Prominent Veins On Calf",
   "visible veins on calf", "bulging veins", "swollen veins on leg", "varicose veins",
   "vein prominence on calf", "dark veins on leg", "raised veins", "twisted veins",
   "veins visible under skin", "leg veins standing out", "distended calf veins",
@@ -752,7 +752,7 @@
   "varicosities on calf", "leg vein prominence", "tortuous veins on calf", "swollen leg veins"
 ]
 ,
-    "puffy_face_and_eyes": [
+    "puffy_face_and_eyes": ["Puffy Face And Eyes",
   "puffy face", "puffy eyes", "swollen face", "swollen eyelids", "facial edema",
   "eye bags", "swelling around eyes", "face looks bloated", "eye puffiness",
   "swollen eye area", "fluid retention in face", "face looks swollen", "puffy eyelids",
@@ -761,7 +761,7 @@
   "face edema", "swollen eye lids", "puffiness in face", "swelling in facial region"
 ]
 ,
-    "pus_filled_pimples": [
+    "pus_filled_pimples": ["Pus Filled Pimples",
   "pustules", "acne", "pus-filled spots", "whiteheads", "inflamed pimples",
   "red pimples with pus", "boils", "skin pustules", "pimple eruption", "zits",
   "pimple with pus", "pustular acne", "infected pimples", "pus nodules",
@@ -770,7 +770,7 @@
   "infected skin bumps", "pus blisters", "white pus spots", "pimple infection"
 ]
 ,
-    "receiving_blood_transfusion": [
+    "receiving_blood_transfusion": ["Receiving Blood Transfusion",
   "blood transfusion", "receiving blood", "blood replacement", "getting blood",
   "blood infusion", "transfused blood", "medical transfusion", "IV blood transfer",
   "donor blood received", "blood therapy", "red blood cell transfusion", "plasma transfusion",
@@ -780,7 +780,7 @@
   "blood replacement procedure", "blood transfusion treatment", "blood transfer"
 ]
 ,
-    "receiving_unsterile_injections": [
+    "receiving_unsterile_injections": ["Receiving Unsterile Injections",
   "unsafe injections", "non-sterile shots", "unhygienic injection", "dirty needle use",
   "contaminated injection", "injection with unclean needle", "risk injection",
   "bloodborne infection risk injection", "improper injection", "infection-prone shot",
@@ -791,7 +791,7 @@
   "high-risk injection", "unclean syringe injection", "unhygienic shot"
 ]
 ,
-    "red_sore_around_nose": [
+    "red_sore_around_nose": ["Red Sore Around Nose",
   "sore near nose", "red patch around nose", "inflamed nose skin", "painful nose skin",
   "crusty nose sore", "irritated skin around nose", "red lesion on nose",
   "nose wound", "swollen area around nose", "nose rash", "inflamed nasal area",
@@ -802,7 +802,7 @@
   "painful nose lesion"
 ]
 ,
-    "red_spots_over_body": [
+    "red_spots_over_body": ["Red Spots Over Body",
   "rash", "red spots", "red bumps", "skin redness", "red lesions", "spots on skin",
   "blotchy red skin", "pimples", "patchy red skin", "erythematous spots",
   "small red dots", "skin eruption", "red patches", "inflamed spots",
@@ -811,7 +811,7 @@
   "skin blotches", "reddish eruptions", "red skin spots", "reddish patches"
 ]
 ,
-    "redness_of_eyes": [
+    "redness_of_eyes": ["Redness Of Eyes",
   "red eyes", "bloodshot eyes", "eye inflammation", "pink eyes", "conjunctival redness",
   "irritated eyes", "red sclera", "inflamed eyes", "eye irritation", "red eye whites",
   "reddish eyes", "eye congestion", "eyes look red", "pale redness in eyes",
@@ -821,7 +821,7 @@
   "ocular redness", "eye irritation with visible redness"
 ]
 ,
-    "restlessness": [
+    "restlessness": ["Restlessness",
   "unable to stay still", "agitated", "fidgety", "uneasy", "nervous energy",
   "cannot relax", "anxious movements", "feeling unsettled", "tossing and turning",
   "difficulty sitting", "restless behavior", "impatience", "can't stay calm",
@@ -830,7 +830,7 @@
   "nervous restlessness", "edgy", "can't remain seated", "fretful", "uneasy body"
 ]
 ,
-    "runny_nose": [
+    "runny_nose": ["Runny Nose",
   "nasal discharge", "sneezing", "dripping nose", "excess mucus in nose",
   "nose running", "watery nose", "post-nasal drip", "stuffy nose with discharge",
   "clear nasal fluid", "frequent sneezing", "sniffling", "runny nostrils",
@@ -839,7 +839,7 @@
   "nose leakage", "nasal overflow", "nose fluid", "nose drainage", "excess nasal mucus"
 ]
 ,
-    "rusty_sputum": [
+    "rusty_sputum": ["Rusty Sputum",
   "blood-tinged sputum", "brownish phlegm", "discolored mucus", "rust-colored sputum",
   "sputum with blood", "coughing up rusty mucus", "bronchial mucus with blood",
   "reddish-brown phlegm", "hemoptysis", "thick rusty mucus", "rust-colored phlegm",
@@ -850,7 +850,7 @@
   "coughing up rusty secretions", "reddish-brown cough mucus"
 ]
 ,
-    "scurring": [
+    "scurring": ["Scurring",
   "skin flaking", "skin shedding", "dry patches", "scaly skin", "peeling skin",
   "flake-like skin", "rough skin", "skin scales", "dermatitis symptom", "patchy dry skin",
   "dead skin shedding", "skin peeling in patches", "crusty skin", "skin irritation with flaking",
@@ -859,7 +859,7 @@
   "crusty flakes on skin", "skin peeling"
 ]
 ,
-    "shivering": [
+    "shivering": ["Shivering",
   "chills", "trembling", "body shaking", "cold shakes", "shuddering",
   "uncontrollable shaking", "body tremors", "teeth chattering", "feeling cold",
   "quivering", "shaking with cold", "involuntary body shakes", "trembling all over",
@@ -868,7 +868,7 @@
   "whole body shakes", "shaking due to cold", "body shudders", "tremulous feeling"
 ]
 ,
-    "silver_like_dusting": [
+    "silver_like_dusting": ["Silver Like Dusting",
   "silvery skin patches", "silver scales", "skin flaking with shine", "shiny skin flakes",
   "silvery scurf", "scaly skin with silver tint", "silver-colored skin patches",
   "skin covered with silver dust", "silvery plaques", "silver-like skin shedding",
@@ -878,7 +878,7 @@
   "silvery skin spots", "shiny silver patches", "sparkling skin flakes", "silvered skin crusts"
 ]
 ,
-    "sinus_pressure": [
+    "sinus_pressure": ["Sinus Pressure",
   "sinus pain", "facial pressure", "head pressure", "nasal congestion", "sinus headache",
   "pressure around eyes", "pressure in forehead", "cheekbone pressure", "sinus fullness",
   "nasal pressure", "sinus discomfort", "face ache", "sinus heaviness", "head ache in sinus area",
@@ -887,7 +887,7 @@
   "facial tightness", "aching sinuses", "sinus area discomfort", "facial heaviness"
 ]
 ,
-    "skin_peeling": [
+    "skin_peeling": ["Skin Peeling",
   "flaking skin", "shedding skin", "skin sloughing", "peeling epidermis", "skin exfoliation",
   "dry skin peeling", "skin shedding in layers", "skin flakes", "peeling patches",
   "peeling due to dryness", "peeling skin areas", "skin desquamation", "scaly skin",
@@ -897,7 +897,7 @@
   "skin shedding reaction"
 ]
 ,
-    "skin_rash": [
+    "skin_rash": ["Skin Rash",
   "rash", "hives", "dermatitis", "red spots", "skin eruption", "inflamed skin",
   "red patches", "itchy skin", "bumpy skin", "patchy redness", "allergic rash",
   "skin irritation", "blotchy skin", "pustular rash", "papular rash", "rash all over body",
@@ -906,7 +906,7 @@
   "rash and bumps"
 ]
 ,
-    "slurred_speech": [
+    "slurred_speech": ["Slurred Speech",
   "difficulty speaking", "mumbled speech", "unclear speech", "garbled speech",
   "speech impairment", "sloppy speech", "incoherent speech", "speech distortion",
   "trouble pronouncing words", "stammering", "speech articulation difficulty",
@@ -916,7 +916,7 @@
   "slurred words", "imprecise speech", "speech confusion", "slurred talking"
 ]
 ,
-    "small_dents_in_nails": [
+    "small_dents_in_nails": ["Small Dents In Nails",
   "pitting nails", "indentations in nails", "nail dimples", "small nail depressions",
   "nail pits", "tiny dents on nails", "nail surface irregularities", "punctate nail pits",
   "nail holes", "depressions in nail plate", "small nail marks", "pitted nail surface",
@@ -926,7 +926,7 @@
   "small concave spots on nails", "nail blemishes"
 ]
 ,
-    "spinning_movements": [
+    "spinning_movements": ["Spinning Movements",
   "vertigo", "dizziness", "room spinning", "lightheadedness", "feeling unbalanced",
   "loss of equilibrium", "giddy feeling", "off-balance sensation", "rotational dizziness",
   "motion sickness", "staggering", "nausea with spinning", "tilting sensation",
@@ -936,7 +936,7 @@
   "vertiginous episodes"
 ]
 ,
-    "spotting__urination": [
+    "spotting__urination": ["Spotting  Urination",
   "blood in urine", "hematuria", "urinary bleeding", "pink urine", "reddish urine",
   "brown urine", "blood-tinged urine", "urine with blood", "urinary discoloration",
   "red-colored urine", "blood spots in urine", "urine streaked with blood",
@@ -946,7 +946,7 @@
   "urinary discoloration with blood"
 ]
 ,
-    "stiff_neck": [
+    "stiff_neck": ["Stiff Neck",
   "neck rigidity", "neck stiffness", "painful neck", "limited neck movement",
   "difficulty turning neck", "tight neck muscles", "neck tension", "sore neck",
   "restricted neck mobility", "neck discomfort", "rigid cervical muscles",
@@ -956,7 +956,7 @@
   "neck muscle stiffness", "neck rigidity with pain"
 ]
 ,
-    "stomach_bleeding": [
+    "stomach_bleeding": ["Stomach Bleeding",
   "gastric bleeding", "internal stomach bleeding", "blood in stomach", "vomiting blood",
   "bloody vomit", "upper gastrointestinal bleeding", "stomach hemorrhage", "stomach ulcer bleeding",
   "bloody stool", "melena", "blood in vomit", "bleeding stomach ulcer", "hematemesis",
@@ -966,7 +966,7 @@
   "bleeding ulcer", "gastrointestinal blood loss", "bloody discharge from stomach"
 ]
 ,
-    "stomach_pain": [
+    "stomach_pain": ["Stomach Pain",
   "abdominal pain", "belly ache", "tummy pain", "gastric pain", "stomach ache",
   "pain in abdomen", "cramping", "abdominal discomfort", "stomach cramps", "belly cramps",
   "painful stomach", "upper abdominal pain", "lower abdominal pain", "stomach distress",
@@ -975,7 +975,7 @@
   "abdominal spasms", "stomachache", "digestive discomfort"
 ]
 ,
-    "sunken_eyes": [
+    "sunken_eyes": ["Sunken Eyes",
   "hollow eyes", "deep-set eyes", "eyes look sunken", "eye sockets appear deep",
   "pale eye area", "dark circles", "dehydrated eyes", "eyes look recessed",
   "eye hollowness", "tired eyes", "eyes appear tired", "eyes look hollow",
@@ -985,7 +985,7 @@
   "eyes look tired and hollow"
 ]
 ,
-    "sweating": [
+    "sweating": ["Sweating",
   "sweaty", "excessive sweating", "diaphoresis", "perspiration", "clammy skin",
   "profuse sweating", "hot and sweaty", "sweat dripping", "overheating",
   "night sweats", "sweatiness", "body perspiration", "sweaty palms", "sweaty forehead",
@@ -994,7 +994,7 @@
   "sweating symptom", "wet skin", "hyperhidrosis", "sweatiness all over"
 ]
 ,
-    "swelled_lymph_nodes": [
+    "swelled_lymph_nodes": ["Swollen Lymph Nodes",
   "swollen glands", "enlarged lymph nodes", "tender lymph nodes", "neck lumps",
   "axillary swelling", "groin swelling", "lymph node enlargement", "painful lymph nodes",
   "lymph node inflammation", "swollen lymph", "lymph swelling", "swelling under jaw",
@@ -1004,7 +1004,7 @@
   "tender swollen glands", "regional lymph node enlargement", "inflamed lymph nodes"
 ]
 ,
-    "swelling_joints": [
+    "swelling_joints": ["Swelling Joints",
   "swollen joints", "joint inflammation", "puffy joints", "arthritic swelling",
   "joint edema", "swelling in knees", "swelling in elbows", "joint enlargement",
   "painful swelling in joints", "inflamed joints", "joint tenderness", "stiff swollen joints",
@@ -1014,7 +1014,7 @@
   "swollen limb joints", "arthropathy swelling", "joint edema with tenderness"
 ]
 ,
-    "swelling_of_stomach": [
+    "swelling_of_stomach": ["Swelling Of Stomach",
   "abdominal swelling", "bloated stomach", "distended belly", "belly puffiness",
   "stomach distension", "abdominal bloating", "swollen abdomen", "belly enlargement",
   "stomach puffiness", "abdominal expansion", "bloating", "tummy swelling",
@@ -1024,7 +1024,7 @@
   "bloated gut", "stomach swelling symptom"
 ]
 ,
-    "swollen_blood_vessels": [
+    "swollen_blood_vessels": ["Swollen Blood Vessels",
   "dilated veins", "enlarged blood vessels", "varicose veins", "bulging veins",
   "prominent veins", "distended vessels", "vein swelling", "vascular swelling",
   "puffy blood vessels", "vein enlargement", "inflamed vessels", "tortuous veins",
@@ -1034,7 +1034,7 @@
   "swelling of veins", "vein engorgement"
 ]
 ,
-    "swollen_extremeties": [
+    "swollen_extremeties": ["Swollen Extremities",
   "swollen hands", "swollen feet", "puffy limbs", "edematous extremities",
   "swelling in arms", "swelling in legs", "limb edema", "inflamed extremities",
   "swollen fingers", "swollen toes", "fluid retention in limbs", "puffy arms",
@@ -1044,7 +1044,7 @@
   "edema in extremities", "swelling in peripheral limbs"
 ]
 ,
-    "swollen_legs": [
+    "swollen_legs": ["Swollen Legs",
   "leg edema", "puffy legs", "leg swelling", "inflamed legs", "edematous legs",
   "swollen lower limbs", "fluid retention in legs", "swelling in calves", "swollen ankles",
   "puffy calves", "swelling in thighs", "inflated legs", "leg puffiness", "distended legs",
@@ -1054,7 +1054,7 @@
   "swollen limb below knee"
 ]
 ,
-    "throat_irritation": [
+    "throat_irritation": ["Throat Irritation",
   "sore throat", "scratchy throat", "painful throat", "pharyngitis", "throat pain",
   "itchy throat", "throat discomfort", "throat inflammation", "burning throat",
   "throat soreness", "difficulty swallowing", "throat itch", "throat tickle",
@@ -1064,7 +1064,7 @@
   "painful swallowing", "throat rawness"
 ]
 ,
-    "toxic_look_(typhos)": [
+    "toxic_look_(typhos)": ["Toxic Look (Typhos)",
   "pale and sickly appearance", "ill-looking", "weak appearance", "gaunt look",
   "sunken eyes", "sallow skin", "unwell appearance", "typhoid look", "fatigued look",
   "ill complexion", "emaciated appearance", "sickly face", "lethargic look",
@@ -1074,7 +1074,7 @@
   "sickly look"
 ]
 ,
-    "ulcers_on_tongue": [
+    "ulcers_on_tongue": ["Ulcers On Tongue",
   "tongue sores", "mouth ulcers", "painful tongue spots", "canker sores",
   "tongue lesions", "tongue blisters", "aphthous ulcers", "inflamed tongue",
   "painful tongue lesions", "tongue bumps", "tongue irritation", "tongue wounds",
@@ -1084,7 +1084,7 @@
   "ulcerated tongue", "painful mouth lesions"
 ]
 ,
-    "unsteadiness": [
+    "unsteadiness": ["Unsteadiness",
   "loss of balance", "instability", "wobbly feeling", "off-balance",
   "difficulty standing", "unbalanced", "dizzy while standing", "poor coordination",
   "staggering", "rocking sensation", "feeling shaky", "loss of equilibrium",
@@ -1094,7 +1094,7 @@
   "falling risk", "unsteady gait", "shaky stance"
 ]
 ,
-    "visual_disturbances": [
+    "visual_disturbances": ["Visual Disturbances",
   "blurred vision", "double vision", "vision problems", "seeing spots",
   "floaters", "vision blur", "vision impairment", "visual anomalies",
   "loss of vision clarity", "trouble seeing", "fuzzy vision", "eye disturbances",
@@ -1104,7 +1104,7 @@
   "vision anomalies", "seeing halos", "vision irregularities"
 ]
 ,
-    "vomiting": [
+    "vomiting": ["Vomiting",
   "throwing up", "being sick", "puking", "vomited", "regurgitation",
   "nausea-induced vomiting", "upchuck", "emesis", "retching", "stomach expulsion",
   "gastrointestinal upset", "forceful vomiting", "stomach contents expelled",
@@ -1114,7 +1114,7 @@
   "stomach emptying forcefully", "expelling food from stomach"
 ]
 ,
-    "watering_from_eyes": [
+    "watering_from_eyes": ["Watering From Eyes",
   "watery eyes", "epiphora", "teary eyes", "excess tear production",
   "eyes producing tears", "eye watering", "lacrimation", "tears running",
   "overflowing tears", "eyes tearing", "eye discharge", "watery ocular",
@@ -1125,7 +1125,7 @@
   "watery eyes symptom"
 ]
 ,
-    "weakness_in_limbs": [
+    "weakness_in_limbs": ["Weakness In Limbs",
   "weak arms", "weak legs", "limb fatigue", "loss of strength in limbs",
   "arm weakness", "leg weakness", "reduced limb strength", "limb heaviness",
   "difficulty moving limbs", "limb tiredness", "muscle weakness in arms and legs",
@@ -1135,7 +1135,7 @@
   "poor limb control", "limb muscle weakness", "loss of limb function"
 ]
 ,
-    "weakness_of_one_body_side": [
+    "weakness_of_one_body_side": ["Weakness Of One Body Side",
   "hemiparesis", "one-sided weakness", "weak right side", "weak left side",
   "partial paralysis", "body side weakness", "unilateral weakness", "weakness in one half of body",
   "asymmetrical weakness", "side-specific weakness", "right-side weakness", "left-side weakness",
@@ -1146,7 +1146,7 @@
   "weakness in half body"
 ]
 ,
-    "weight_gain": [
+    "weight_gain": ["Weight Gain",
   "increased weight", "putting on weight", "gaining pounds", "body mass increase",
   "fat accumulation", "weight increase", "heavier body", "overweight",
   "body weight rise", "added weight", "gain in body mass", "weight accumulation",
@@ -1156,7 +1156,7 @@
   "body mass growth", "weight uptrend", "weight change upward"
 ]
 ,
-    "weight_loss": [
+    "weight_loss": ["Weight Loss",
   "unexplained weight loss", "losing weight", "dropping pounds", "slimming down",
   "body mass reduction", "thinner appearance", "weight decrease", "weight reduction",
   "loss of body mass", "emaciation", "weight drop", "loss of pounds", "reduced weight",
@@ -1165,7 +1165,7 @@
   "weight depletion", "body mass loss", "unintentional weight loss", "weight downtrend"
 ]
 ,
-    "yellow_crust_ooze": [
+    "yellow_crust_ooze": ["Yellow Crust Ooze",
   "yellow crusts on skin", "pustules", "oozing yellow fluid", "yellow discharge",
   "crusted lesions", "skin with yellow scabs", "infected skin crusts", "yellow pus",
   "yellowish sores", "skin lesions with crust", "purulent yellow crust", "skin oozing yellow",
@@ -1175,7 +1175,7 @@
   "yellow lesion crusts", "yellow skin discharge"
 ]
 ,
-    "yellow_urine": [
+    "yellow_urine": ["Yellow Urine",
   "bright yellow urine", "deep yellow urine", "golden urine", "urine discoloration",
   "dark urine", "pale yellow urine", "urine color change", "concentrated urine",
   "strong yellow urine", "urine appearing yellow", "yellowish urine", "urine pigment change",
@@ -1185,7 +1185,7 @@
   "urine shade yellow", "urine discoloration symptom"
 ]
 ,
-    "yellowing_of_eyes": [
+    "yellowing_of_eyes": ["Yellowing Of Eyes",
   "jaundice", "yellow eyes", "icterus", "scleral yellowing", "discolored eyes",
   "eyes turning yellow", "yellow sclera", "eye yellow tint", "scleral icterus",
   "yellowish eyes", "eye discoloration", "eyes look jaundiced", "yellow eye symptom",
@@ -1195,7 +1195,7 @@
   "yellow eyes condition", "eyes with icterus", "eyes yellow appearance"
 ]
 ,
-    "yellowish_skin": [
+    "yellowish_skin": ["Yellowish Skin",
   "jaundice", "yellow skin", "sallow skin", "pale yellow complexion", "skin discoloration",
   "skin turning yellow", "icteric skin", "yellowish appearance", "skin jaundice",
   "skin pigment change", "yellow hue on skin", "skin looks yellow", "pale yellow skin tone",
@@ -1205,5 +1205,4 @@
   "skin color change to yellow", "jaundiced complexion", "yellow skin condition",
   "skin yellowing episode", "skin bilirubin sign"
 ]
-
 }
