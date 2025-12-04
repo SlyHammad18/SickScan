@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SickScan - AI Disease Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-heart-pulse"></i> SickScan
+            </div>
+            <p class="subtitle">AI-Powered Symptom Checker & Disease Predictor</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <h2>How are you feeling today?</h2>
+                <div class="textarea-wrapper">
+                    <textarea id="symptom-input" placeholder="Describe your symptoms here (e.g., I have a headache and fever...)"></textarea>
+                    <button id="analyze-btn" class="primary-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i> Analyze Symptoms
+                    </button>
+                </div>
+            </section>
+
+            <section id="symptoms-section" class="hidden">
+                <div class="section-header">
+                    <h3>Detected Symptoms</h3>
+                    <span class="badge" id="symptom-count">0</span>
+                </div>
+                
+                <div id="detected-symptoms-list" class="tags-container">
+                    <!-- Symptoms will be injected here -->
+                </div>
+
+                <div class="add-symptom-wrapper">
+                    <label for="add-symptom-input">Missed something? Add it manually:</label>
+                    <div class="input-group">
+                        <input type="text" id="add-symptom-input" placeholder="Type a symptom..." list="all-symptoms-list">
+                        <datalist id="all-symptoms-list">
+                            <!-- Options populated via JS -->
+                        </datalist>
+                        <button id="add-symptom-btn" class="secondary-btn"><i class="fa-solid fa-plus"></i> Add</button>
+                    </div>
+                </div>
+
+                <div class="action-area">
+                    <button id="predict-btn" class="action-btn">
+                        <i class="fa-solid fa-user-doctor"></i> Get Diagnosis
+                    </button>
+                </div>
+            </section>
+
+            <section id="results-section" class="hidden">
+                <h3>Potential Conditions</h3>
+                <div id="predictions-list" class="cards-container">
+                    <!-- Predictions will be injected here -->
+                </div>
+                <button id="reset-btn" class="text-btn">Start Over</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>SickScan v67.69.00 &copy; 2025 | Developed by Meowl (^.^)</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
