@@ -42,26 +42,33 @@ document.addEventListener('DOMContentLoaded', () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ text: text })
         })
-        .then(response => response.json())
-        .then(data => {
-            if (data.error) {
-                alert(data.error);
-                return;
-            }
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
 
-            // Add detected symptoms
-            data.symptoms.forEach(s => {
-                addSymptomTag(s.id, s.name);
+
+                // Clear previous results
+                currentSymptoms.clear();
+                detectedSymptomsList.innerHTML = '';
+                resultsSection.classList.add('hidden');
+                updateCount();
+
+                // Add detected symptoms
+                data.symptoms.forEach(s => {
+                    addSymptomTag(s.id, s.name);
+                });
+
+                symptomsSection.classList.remove('hidden');
+                symptomsSection.scrollIntoView({ behavior: 'smooth' });
+            })
+            .catch(err => console.error(err))
+            .finally(() => {
+                analyzeBtn.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Analyze Symptoms';
+                analyzeBtn.disabled = false;
             });
-
-            symptomsSection.classList.remove('hidden');
-            symptomsSection.scrollIntoView({ behavior: 'smooth' });
-        })
-        .catch(err => console.error(err))
-        .finally(() => {
-            analyzeBtn.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Analyze Symptoms';
-            analyzeBtn.disabled = false;
-        });
     });
 
     // Add Manual Symptom
@@ -76,11 +83,11 @@ document.addEventListener('DOMContentLoaded', () => {
             id = allSymptomsMap.get(lowerVal);
         } else {
             // Fallback: try to find exact match in datalist options if map lookup fails (unlikely if map is built correctly)
-             // For now, if not in map, we assume it's not a valid symptom in our DB.
-             // But let's check if the user typed an ID directly?
-             if (allSymptomsMap.has(val)) { // Check if they typed an ID
-                 id = val; 
-             }
+            // For now, if not in map, we assume it's not a valid symptom in our DB.
+            // But let's check if the user typed an ID directly?
+            if (allSymptomsMap.has(val)) { // Check if they typed an ID
+                id = val;
+            }
         }
 
         if (id) {
@@ -88,9 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const officialName = allSymptomsMap.get(id);
             // If we found an ID, update the tag with the official name
             if (officialName && officialName !== id) {
-                 // Remove the old tag if we added it with raw input (we haven't yet)
-                 // Actually, addSymptomTag handles duplicates.
-                 addSymptomTag(id, officialName);
+                // Remove the old tag if we added it with raw input (we haven't yet)
+                // Actually, addSymptomTag handles duplicates.
+                addSymptomTag(id, officialName);
             } else {
                 addSymptomTag(id, val);
             }
@@ -115,17 +122,17 @@ document.addEventListener('DOMContentLoaded', () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ symptoms: Array.from(currentSymptoms) })
         })
-        .then(response => response.json())
-        .then(data => {
-            renderPredictions(data.predictions);
-            resultsSection.classList.remove('hidden');
-            resultsSection.scrollIntoView({ behavior: 'smooth' });
-        })
-        .catch(err => console.error(err))
-        .finally(() => {
-            predictBtn.innerHTML = '<i class="fa-solid fa-user-doctor"></i> Get Diagnosis';
-            predictBtn.disabled = false;
-        });
+            .then(response => response.json())
+            .then(data => {
+                renderPredictions(data.predictions);
+                resultsSection.classList.remove('hidden');
+                resultsSection.scrollIntoView({ behavior: 'smooth' });
+            })
+            .catch(err => console.error(err))
+            .finally(() => {
+                predictBtn.innerHTML = '<i class="fa-solid fa-user-doctor"></i> Get Diagnosis';
+                predictBtn.disabled = false;
+            });
     });
 
     // Reset
@@ -156,11 +163,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Helper: Remove Tag (exposed to window for onclick)
-    window.removeSymptom = function(id, element) {
+    window.removeSymptom = function (id, element) {
         currentSymptoms.delete(id);
         updateCount();
         element.parentElement.remove();
-        
+
         // Hide results if modified? Maybe not, let user re-click diagnose.
     };
 
@@ -174,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'result-card';
             card.style.animationDelay = `${index * 0.1}s`;
-            
+
             const symptomsStr = p.common_symptoms.length > 0 ? p.common_symptoms.join(', ') : 'N/A';
 
             card.innerHTML = `
