@@ -16,7 +16,7 @@
     "anxiety": ["Anxiety", "nervousness", "anxious", "feeling anxious", "panic attacks", "feeling nervous", "worried", "stressed", "panicked", "on edge", "uneasy", "sense of dread", "restlessness", "overwhelming worry", "fearful", "agitated", "tense", "irritable", "catastrophic thinking", "constant worry", "panic feeling"],
     "back_pain": ["Back Pain", "sore back", "aching back", "pain in my back", "lower back pain", "upper back pain", "backache", "stiff back", "pulled back muscle", "back strain", "throbbing back", "sharp back pain", "dull back pain", "back hurts", "lumbar pain", "thoracic pain", "spinal pain", "pain in the spine", "back muscle pain", "radiating back pain"],
     "belly_pain": [
-  "belly Pain", "pain in belly", "sore belly", "belly hurts", "stomach ache",
+  "Belly Pain", "pain in belly", "sore belly", "belly hurts", "stomach ache",
   "abdominal pain", "tummy pain", "belly discomfort", "cramps in belly",
   "stomach cramps", "pain in abdomen", "abdominal discomfort", "tummy ache",
   "bellyache", "pain in gut", "abdominal ache", "cramping stomach", "stomach soreness",
@@ -286,7 +286,7 @@
   "abnormal appetite", "excessive food craving"
 ]
 ,
-    "extra_marital_contacts": ["Extra Marital Contacts",
+    "extra_marital_contacts": ["Extra Marital Contacts", "Sex Before marriage", "Having Sex",
   "infidelity", "affair", "cheating partner", "extramarital affair", "unfaithfulness",
   "relationship outside marriage", "adultery", "partner cheating", "secret relationship",
   "outside partner", "illicit relationship", "marital betrayal", "cheating spouse", "affair outside marriage",
