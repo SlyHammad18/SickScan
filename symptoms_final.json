@@ -279,7 +279,7 @@
     "excessive_hunger": ["Excessive Hunger",
   "always hungry", "increased appetite", "polyphagia", "never feel full",
   "insatiable hunger", "constant hunger", "overeating urge", "persistent hunger",
-  "always want to eat", "extreme appetite", "ravenous hunger", "hunger pangs",
+  "extreme appetite", "ravenous hunger", "hunger pangs",
   "frequent hunger", "uncontrolled appetite", "excessive eating desire", "frequent cravings",
   "strong appetite", "continuous hunger", "hunger feeling never ends", "intense hunger",
   "constant desire to eat", "overactive appetite", "eating urge", "hungry all the time",
@@ -501,7 +501,7 @@
   "weak and tired", "feeling weak"
 ]
 ,
-    "loss_of_appetite": ["Loss Of Appetite",
+    "loss_of_appetite": ["Loss Of Appetite", " I don’t feel like eating at all",
   "no appetite", "not hungry", "don't want to eat", "loss of hunger",
   "reduced appetite", "unable to eat", "avoiding food", "not feeling hungry",
   "no desire to eat", "refusal to eat", "poor appetite", "eating less than usual",
