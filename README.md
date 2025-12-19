@@ -81,3 +81,11 @@ SickScan allows users to describe their symptoms in **natural, everyday language
 ```bash
 git clone https://github.com/yourusername/sickscan.git
 cd sickscan
+pip install -r requirements.txt
+python app.py
+```
+
+2. Train the Model
+```bash
+python train.py
+```
