@@ -79,7 +79,7 @@ SickScan allows users to describe their symptoms in **natural, everyday language
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sickscan.git
+git clone https://github.com/SlyHammad18/sickscan.git
 cd sickscan
 pip install -r requirements.txt
 python app.py
